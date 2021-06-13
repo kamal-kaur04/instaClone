@@ -32,7 +32,7 @@
            <label for="image" class="col-md-4 col-form-label">{{ __('Post Image') }}</label>
                   <input id= "image"
                          type="file"
-                         style="display:block;"
+                         style=""
                          class = "form-contol-file @error('image') is-invalid @enderror"
                          name="image">
 
@@ -44,7 +44,7 @@
        </div>
 
        <div class="row pt-4">
-         <button type="button" class="btn btn-primary">Add New Post</button>
+         <button class="btn btn-primary">Add New Post</button>
        </div>
 
      </div>
